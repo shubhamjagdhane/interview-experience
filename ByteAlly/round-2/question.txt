@@ -1,0 +1,70 @@
+NOTE: This is a continuation of Q1, so please try to reuse as much as possible.
+
+Consider a network of cities connected by roads. You can travel from a city to another, if there exists a road between them in either direction. You can assume that a pair of cities are connected by a maximum of one road.
+
+A vehicle can be used to travel from one city to another, but it has a limited fuel tank size. Some of the cities have a petrol pump, where the vehicle can be refuelled fully. Let us assume that the distance the vehicle can cover on a full tank is called the capacity of the vehicle.
+
+Q2 - Find the paths such that the vehicle can complete the journey between a given pair of cities without running out of fuel.
+
+Sample Input 1:
+5
+DELHI 0
+MUMBAI 0
+CHENNAI 1
+PUNE 0
+KOLKATA 0
+5
+DELHI MUMBAI 10
+MUMBAI CHENNAI 12
+CHENNAI PUNE 11
+PUNE DELHI 24
+KOLKATA CHENNAI 13
+DELHI PUNE
+25
+
+Input Explanation:
+Input (Line 1): Number of cities
+5
+
+Input (Line 2-6): City name followed by 1 if it has a petrol pump or 0 if it doesn’t, separated by spaces.
+DELHI 0
+.
+.
+
+Input (Line 7): Number of roads
+5
+
+Input (Line 8-12): Each line (5 of them, because road inputs were 5) consist of two cities followed by the distance between them separated by a space
+DELHI MUMBAI 10
+
+Input (Line 13): Two cities between which you want to find the paths
+DELHI PUNE
+
+Input (Line 14): Capacity (distance the vehicle can cover on a full tank) of the vehicle
+25
+
+Sample Output 1:
+DELHI MUMBAI CHENNAI PUNE 33
+DELHI PUNE 24
+
+
+
+
+Sample Input 2:
+5
+DELHI 0
+MUMBAI 0
+CHENNAI 1
+PUNE 0
+KOLKATA 0
+5
+DELHI MUMBAI 10
+MUMBAI CHENNAI 12
+CHENNAI PUNE 11
+PUNE DELHI 24
+KOLKATA CHENNAI 13
+DELHI PUNE
+23
+
+Sample Output 2:
+DELHI MUMBAI CHENNAI PUNE 33

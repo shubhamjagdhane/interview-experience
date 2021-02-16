@@ -1,0 +1,47 @@
+Consider a network of cities connected by roads. You can travel from a city to another, if there exists a road between them in either direction. You can assume that a pair of cities are connected by a maximum of one road.
+
+Q1 - Find all the possible paths between two cities along with the total distance between them.
+
+Sample Input:
+5
+DELHI
+MUMBAI
+CHENNAI
+PUNE
+KOLKATA
+5
+DELHI MUMBAI 10
+MUMBAI CHENNAI 12
+CHENNAI PUNE 11
+PUNE DELHI 14
+KOLKATA CHENNAI 13
+DELHI PUNE
+
+Input Explanation:
+Input (Line 1): Number of cities.
+5
+
+Input (Line 2-6): City names
+DELHI 0
+.
+.
+
+Input (Line 7): Number of road inputs.
+5
+
+Input (Line 8-12): Each line (5 of them, because road inputs were 5) consist of two cities followed by the distance between them separated by a space 
+ DELHI MUMBAI 10
+.
+.
+.
+.
+
+Input (Line 13): Two cities between which you want to find the paths
+DELHI PUNE
+
+Sample Output:
+DELHI PUNE 14
+DELHI MUMBAI CHENNAI PUNE 33
+
+Output Explanation:
+There are two paths from Delhi to Pune: Delhi - Pune with a total distance of 14 and Delhi - Mumbai - Chennai - Pune with a total distance of 33.
