@@ -1,0 +1,62 @@
+{
+  "candidate": "Shubham Jagdhane",
+  "batch": "2018",
+  "course": "MCA",
+  "company": "ByteAlly",
+  "hiring": "ON Campus Virtual Drive",
+  "period": "Feb-2021",
+  "company_logo": "",
+  "rounds": [
+    {
+      "name": "First Round",
+      "type": "Technical Coding - 1hr",
+      "description": [
+        "Company sent us a link of doc file in which question was explained.",
+        "This was held on Google Meet where you had to keep you webcam ON",
+        "The round was for 1hr but in case if you want some extra time they can give you extra 10mins more",
+        "For question and solution please follow along with the below link"
+      ],
+      "link": "https://github.com/shubhamjagdhane/interview-experience/tree/master/ByteAlly/round-1",
+      "difficulty": "Medium",
+      "focused": "Problem solving, Graphs, Graph traversal algorithms",
+      "result": "Out of 60-70 students 8 get qualified for the next round"
+    },
+    {
+      "name": "Second Round",
+      "type": "Technical Coding - 1hr",
+      "description": [
+        "This round is conducted same as the 1st round",
+        "Question was continuation of of the first round's question",
+        "For question and solution please follow along with the below link"
+      ],
+      "link": "https://github.com/shubhamjagdhane/interview-experience/tree/master/ByteAlly/round-2",
+      "difficulty": "Medium",
+      "focused": "Problem solving, Graphs, Graph traversal algorithms",
+      "result": "Out of 8 students 7 get qualified for the next round"
+    },
+    {
+      "name": "Third Round",
+      "type": "Technical + HR - 40mins",
+      "description": [
+        "This round was held on Google meet, they told me to introduce myself",
+        "They asked me about intership projects",
+        "Walk through to the second round's code",
+        "As I told them about React.js, they asked me life cycle of React.js",
+        "Binary trees time complexity, Do you know about AVL tree",
+        "Sorting algorithms, which one is best and under what circumstances which algorithm you will choose for sorting, Hash tables",
+        "They asked me about what database you know, as I told them PostgreSQL and MongoDB they asked me difference between NoSQL and SQL",
+        "Do you know indices in database",
+        "I have mentioned python in resume so they asked following questions",
+        "Difference between list and tuple",
+        "How dictionary is implemented in python, What possible types we can use as a key in dictionary",
+        "Do you know about Decorators, Generators in Python",
+        "Is there anything similar to generator in Javascript",
+        "Difference between lambda and def keyword",
+        "Tail recursion, Deep copy and shallow copy"
+      ],
+      "difficulty": "Medium",
+      "focused": "Intership projects, basic and core about programming language you used",
+      "result": "From 7 students 3 got final offer, I was one of them"
+    }
+  ]
+}
